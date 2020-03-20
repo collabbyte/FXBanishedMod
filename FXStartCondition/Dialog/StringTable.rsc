@@ -860,6 +860,7 @@ StringTable gameDialogs
 		{ String _name = "ClothesTip";			String _text = "Amount of stored clothes."; }
 		{ String _name = "AlcoholTip";			String _text = "Amount of stored alcohol."; }
 		{ String _name = "CoalTip";				String _text = "Amount of stored coal."; }
+		{ String _name = "TextileTip";			String _text = "Amount of stored textiles."; }
 
 		{ String _name = "SeasonTip";			String _text = "Current season and number of years the town has existed."; }
 		{ String _name = "HealthTip";			String _text = "Average health of citizens."; }
@@ -988,7 +989,7 @@ StringTable startConditions
 																food, firewood, building materials, and tools are provided. Homes and storage areas 
 																have already been built. Seeds for fields and orchards are available as well as a herd of livestock."; }
                                                                 
-		{ String _name = "FXModName";		    String _text = "FX Starting Mod"; }
+		{ String _name = "FXModName";		    String _text = "FX Start Conditions Mod"; }
 		{ String _name = "FXModDesc";		    String _text = "Game begins with ten families. A large amount of clothing, 
 																food, firewood, building materials, and tools are provided. 
                                                                 Seeds for fields and orchards are available as well as a herd of livestock."; }
@@ -1376,7 +1377,7 @@ StringTable graphTypes
 		{ String _name = "Type9";			String _text = "Herbs"; }
 		{ String _name = "Type10";			String _text = "Clothing"; }
 		{ String _name = "Type11";			String _text = "Alcohol"; }
-	
+		{ String _name = "Type12";			String _text = "Textile"; }
 	]
 }
 
@@ -1464,6 +1465,10 @@ StringTable graphKeys
 		{ String _name = "Record34";		String _text = "Produced"; }
 
 		{ String _name = "Record35";		String _text = "Coal"; }
+		{ String _name = "Record36";		String _text = "Used"; }
+		{ String _name = "Record37";		String _text = "Produced"; }
+	
+		{ String _name = "Record35";		String _text = "Textile"; }
 		{ String _name = "Record36";		String _text = "Used"; }
 		{ String _name = "Record37";		String _text = "Produced"; }
 	]
