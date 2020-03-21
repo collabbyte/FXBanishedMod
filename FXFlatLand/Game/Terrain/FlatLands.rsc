@@ -17,11 +17,11 @@ TerrainGenerator resource
 			int _mapSize = 256;
 
 			// number of flat areas
-			int _flatAreaCount = 2;
+			int _flatAreaCount = 40;
 
 			// size of flat areas
-			int _minFlatAreaSize = 128;
-			int _maxFlatAreaSize = 128;
+			int _minFlatAreaSize = 64;
+			int _maxFlatAreaSize = 96;
 
 			// number of areas to avoid
 			int _avoidAreaCount = 0;
@@ -31,10 +31,10 @@ TerrainGenerator resource
 			int _maxAvoidSize = 0;
 
 			// how many close nodes to connect to
-			int _flatAreaConnections = 1;
+			int _flatAreaConnections = 4;
 
 			// rivers 
-			int _streamCount = 1;
+			int _streamCount = 0;
 
 			// erosion
 			int _erosion = 4000000;
@@ -60,11 +60,11 @@ TerrainGenerator resource
 			int _mapSize = 384;
 
 			// number of flat areas
-			int _flatAreaCount = 2;
+			int _flatAreaCount = 60;
 
 			// size of flat areas
-			int _minFlatAreaSize = 192;
-			int _maxFlatAreaSize = 192;
+			int _minFlatAreaSize = 64;
+			int _maxFlatAreaSize = 96;
 
 			// number of areas to avoid
 			int _avoidAreaCount = 0;
@@ -74,10 +74,10 @@ TerrainGenerator resource
 			int _maxAvoidSize = 0;
 
 			// how many close nodes to connect to
-			int _flatAreaConnections = 1;
+			int _flatAreaConnections = 4;
 
 			// rivers 
-			int _streamCount = 1;
+			int _streamCount = 0;
 
 			// erosion
 			int _erosion = 8000000;
@@ -103,11 +103,11 @@ TerrainGenerator resource
 			int _mapSize = 512;
 
 			// number of flat areas
-			int _flatAreaCount = 2;
+			int _flatAreaCount = 80;
 
 			// size of flat areas
-			int _minFlatAreaSize = 256;
-			int _maxFlatAreaSize = 256;
+			int _minFlatAreaSize = 64;
+			int _maxFlatAreaSize = 96;
 
 			// number of areas to avoid
 			int _avoidAreaCount = 0;
@@ -117,10 +117,10 @@ TerrainGenerator resource
 			int _maxAvoidSize = 0;
 
 			// how many close nodes to connect to
-			int _flatAreaConnections = 1;
+			int _flatAreaConnections = 4;
 
 			// rivers 
-			int _streamCount = 1;
+			int _streamCount = 0;
 
 			// erosion
 			int _erosion = 16000000;
