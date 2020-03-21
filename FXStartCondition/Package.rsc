@@ -6,7 +6,7 @@ PackageFile FXStartCondition
                            100 stone, 100 iron, 100 tools, 3000 food, 420 fuel, 100 cloth, 
                            4 seed (2 cropfield & 2 orchard), 2 random type livestock @ 10 pieces.";
 	String _icon = "icon.png";
-	int _userVersion = 1.0.0;
+	int _userVersion = 1.0.2;
 
 	// all files in resource directory
 	String _includeList
@@ -27,7 +27,7 @@ ExternalList list
 {
 	External _resources
 	[
-		"Game/StartCondition/StartConditions.rsc"
+		"Game/StartCondition/StartConditions.rsc:resource"
 		"Game/StartCondition/FXMod.rsc"
 
 		"Dialog/StringTable.rsc:startConditions"

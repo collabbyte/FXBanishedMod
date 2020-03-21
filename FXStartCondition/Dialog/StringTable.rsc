@@ -989,7 +989,7 @@ StringTable startConditions
 																food, firewood, building materials, and tools are provided. Homes and storage areas 
 																have already been built. Seeds for fields and orchards are available as well as a herd of livestock."; }
                                                                 
-		{ String _name = "FXModName";		    String _text = "FX Start Conditions Mod"; }
+		{ String _name = "FXModName";		    String _text = "FX Starting Mod"; }
 		{ String _name = "FXModDesc";		    String _text = "Game begins with ten families. A large amount of clothing, 
 																food, firewood, building materials, and tools are provided. 
                                                                 Seeds for fields and orchards are available as well as a herd of livestock."; }
