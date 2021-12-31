@@ -17,7 +17,7 @@ TerrainGenerator resource
 			int _mapSize = 256;
 
 			// number of flat areas
-			int _flatAreaCount = 40;
+			int _flatAreaCount = 50;
 
 			// size of flat areas
 			int _minFlatAreaSize = 64;
@@ -60,7 +60,7 @@ TerrainGenerator resource
 			int _mapSize = 384;
 
 			// number of flat areas
-			int _flatAreaCount = 60;
+			int _flatAreaCount = 70;
 
 			// size of flat areas
 			int _minFlatAreaSize = 64;
@@ -103,7 +103,7 @@ TerrainGenerator resource
 			int _mapSize = 512;
 
 			// number of flat areas
-			int _flatAreaCount = 80;
+			int _flatAreaCount = 90;
 
 			// size of flat areas
 			int _minFlatAreaSize = 64;
