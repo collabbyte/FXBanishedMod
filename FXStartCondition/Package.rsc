@@ -2,11 +2,9 @@ PackageFile FXStartCondition
 {
 	String _name = "FX StartCondition";
 	String _author = "Feral Xan";
-	String _description = "when starting the game, you will get 20 adult, 250 wood, 
-                           100 stone, 100 iron, 100 tools, 3000 food, 420 fuel, 100 cloth, 
-                           4 seed (2 cropfield & 2 orchard), 2 random type livestock @ 10 pieces.";
+	String _description = "StartCondition with some added fiture.";
 	String _icon = "icon.png";
-	int _userVersion = 1.0.2;
+	int _userVersion = 1.0.3;
 
 	// all files in resource directory
 	String _includeList
@@ -28,7 +26,9 @@ ExternalList list
 	External _resources
 	[
 		"Game/StartCondition/StartConditions.rsc:resource"
-		"Game/StartCondition/FXMod.rsc"
+		"Game/StartCondition/FXEMod.rsc"
+		"Game/StartCondition/FXMMod.rsc"
+		"Game/StartCondition/FXHMod.rsc"
 
 		"Dialog/StringTable.rsc:startConditions"
 	]

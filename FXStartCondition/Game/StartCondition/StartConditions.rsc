@@ -5,7 +5,9 @@ ExternalList resource
 		"Game/StartCondition/Hard.rsc",
 		"Game/StartCondition/Medium.rsc",
 		"Game/StartCondition/Easy.rsc",
-		"Game/StartCondition/FXMod.rsc",
+		"Game/StartCondition/FXHMod.rsc",
+		"Game/StartCondition/FXMMod.rsc",
+		"Game/StartCondition/FXEMod.rsc",
 	]
 }
 
