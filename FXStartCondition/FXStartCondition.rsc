@@ -6,6 +6,7 @@ ExternalList resource
 		"Game/StartCondition/FXEMod.rsc"
 		"Game/StartCondition/FXMMod.rsc"
 		"Game/StartCondition/FXHMod.rsc"
+		"Game/StartCondition/FXCheatMod.rsc"
 		"Dialog/StringTable.rsc:startConditions"
 	]
 }

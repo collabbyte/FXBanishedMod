@@ -20,16 +20,3 @@ PackageFile FXStartCondition
 		"*.pkm"
 	]
 }
-
-ExternalList list
-{
-	External _resources
-	[
-		"Game/StartCondition/StartConditions.rsc:resource"
-		"Game/StartCondition/FXEMod.rsc"
-		"Game/StartCondition/FXMMod.rsc"
-		"Game/StartCondition/FXHMod.rsc"
-
-		"Dialog/StringTable.rsc:startConditions"
-	]
-}

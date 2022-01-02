@@ -26,7 +26,7 @@ MapGenerator resource : "StartConditions.rsc:defaults"
 	[
 		{
 			WeakComponentDescription _structure = "Template\StorageBarn.rsc";
-			int _offsetX = -3;
+			int _offsetX = -2;
 			int _offsetY = 5;
 			int _rotation = 90;
 		}
@@ -49,9 +49,9 @@ MapGenerator resource : "StartConditions.rsc:defaults"
 	int _initialFuelCount = 800;
 	int _initialClothingCount = 200;
 
-	int _plantCount = 8;
-	int _treeCount = 8;
-	int _livestockCount = 3;
+	int _plantCount = 4;
+	int _treeCount = 4;
+	int _livestockCount = 2;
 
 	float _livestockOffsetX = 0.0f;
 	float _livestockOffsetY = 0.0f;

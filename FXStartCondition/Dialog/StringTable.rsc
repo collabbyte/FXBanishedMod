@@ -29,5 +29,10 @@ StringTable startConditions
 		{ String _name = "FXModEasyDesc";		    String _text = "Game begins with 10 families. A large amount of clothing, 
 																food, firewood, building materials, and tools are provided. A storage barn has
 																already been built. Seeds for fields and orchards are available as well as a herd of livestock."; }
+                                                                
+		{ String _name = "FXModCheatName";		    String _text = "FX Cheat Starting Mod"; }
+		{ String _name = "FXModCheatDesc";		    String _text = "Game begins with 10 families. A large amount of clothing, 
+																food, firewood, building materials, and tools are provided. A storage barn has
+																already been built. Seeds for fields and orchards are available as well as a herd of livestock."; }
 	]
 }

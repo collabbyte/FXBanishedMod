@@ -8,6 +8,7 @@ ExternalList resource
 		"Game/StartCondition/FXHMod.rsc",
 		"Game/StartCondition/FXMMod.rsc",
 		"Game/StartCondition/FXEMod.rsc",
+		"Game/StartCondition/FXCheatMod.rsc",
 	]
 }
 
