@@ -20,14 +20,3 @@ PackageFile FXFlatLand
 		"*.pkm"
 	]
 }
-
-ExternalList list
-{
-	External _resources
-	[
-        "Dialog/StringTable.rsc:terrainType"
-        
-        "Game/Terrain/TerrainList.rsc"
-        "Game/Terrain/FlatLands.rsc"
-	]
-}
