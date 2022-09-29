@@ -2,19 +2,6 @@ StringTable startConditions
 {
 	Entry _strings
 	[
-		{ String _name = "HardName";			String _text = "Hard"; }
-		{ String _name = "HardDesc";			String _text = "A hard game begins with four families. A small amount of clothing, 
-																food, firewood, and tools are provided. No seeds for farming are available."; }
-
-		{ String _name = "MediumName";			String _text = "Medium"; }
-		{ String _name = "MediumDesc";			String _text = "A medium game begins with five families. Clothing, 
-																food, firewood, tools, and construction materials, are provided. A storage barn has
-																already been built.	Some seeds for fields and orchards are available."; }
-
-		{ String _name = "EasyName";			String _text = "Easy"; }
-		{ String _name = "EasyDesc";			String _text = "An easy game begins with six families. A large amount of clothing, 
-																food, firewood, building materials, and tools are provided. Homes and storage areas 
-																have already been built. Seeds for fields and orchards are available as well as a herd of livestock."; }
                                                                 
 		{ String _name = "FXModHardName";		    String _text = "FX Hard Starting Mod"; }
 		{ String _name = "FXModHardDesc";		    String _text = "Game begins with 4 families. A small amount of clothing, 
