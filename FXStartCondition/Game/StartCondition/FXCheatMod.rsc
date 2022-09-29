@@ -49,9 +49,9 @@ MapGenerator resource : "StartConditions.rsc:defaults"
 	int _initialFoodCount = 100000;
 	int _initialClothingCount = 200;
 
-	int _plantCount = 4;
-	int _treeCount = 4;
-	int _livestockCount = 2;
+	int _plantCount = 8;
+	int _treeCount = 8;
+	int _livestockCount = 3;
 
 	float _livestockOffsetX = 0.0f;
 	float _livestockOffsetY = 0.0f;
