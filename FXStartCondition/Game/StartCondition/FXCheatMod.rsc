@@ -1,6 +1,6 @@
 MapGenerator resource : "StartConditions.rsc:defaults"
 {
-	StringTable _stringTable = "Dialog/StringTable.rsc:startConditions";
+	StringTable _stringTable = "UI/FXStartConditionStringTable.rsc";
 	String _name = "FXModCheatName";
 	String _description = "FXModCheatDesc";
 	bool _exposed = true;
@@ -46,7 +46,7 @@ MapGenerator resource : "StartConditions.rsc:defaults"
 	int _initialFuelCount = 800;
 
 	int _initialToolCount = 100;
-	int _initialFoodCount = 100000;
+	int _initialFoodCount = 50000;
 	int _initialClothingCount = 200;
 
 	int _plantCount = 8;

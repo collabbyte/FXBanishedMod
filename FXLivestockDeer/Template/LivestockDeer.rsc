@@ -19,9 +19,9 @@ ComponentDescription resource
 
 ValueDescription value
 {
-	SpriteSheet _spriteSheet = "UI/DeerSpriteSheet.rsc";
+	SpriteSheet _spriteSheet = "UI/FXLivestockDeerSpriteSheet.rsc";
 	String _spriteName = "DeersSmall";
-	StringTable _stringTable = "UI/DeerStringTable.rsc";
+	StringTable _stringTable = "UI/FXLivestockDeerStringTable.rsc";
 	String _stringName = "Deers";
 		
 	// how much the item is worth, +- some tolerance
@@ -34,15 +34,17 @@ ValueDescription value
 
 CharacterDescription character
 {
-	float _headingOffset = 90.0;
-	float _turnFilter = 0.95;
+	float _headingOffset = 0.0;
+	float _turnFilter = 0.97;
+	float _defaultAnimationBlendTime = 0.33;
+	float _minHeight = -1.2;
 }
 
 SelectDescription select
 {
-	SpriteSheet _spriteSheet = "UI/DeerSpriteSheet.rsc";
+	SpriteSheet _spriteSheet = "UI/FXLivestockDeerSpriteSheet.rsc";
 	String _spriteName = "Deer";
-	StringTable _stringTable = "UI/DeerStringTable.rsc";
+	StringTable _stringTable = "UI/FXLivestockDeerStringTable.rsc";
 	String _stringName = "Deers";
 	SelectGroup _group = Livestock;
 }
@@ -81,10 +83,9 @@ ModelDescription model
 
 	int _displayIndex = 0;
 	int _subIndex = 0;	
-	bool _randomIndex = false;
+	bool _randomIndex = true;
 }
 
 LivestockDescription livestock 
 { 
-	
 }

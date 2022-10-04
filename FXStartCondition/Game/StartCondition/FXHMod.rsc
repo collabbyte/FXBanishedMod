@@ -1,6 +1,6 @@
 MapGenerator resource : "StartConditions.rsc:defaults"
 {
-	StringTable _stringTable = "Dialog/StringTable.rsc:startConditions";
+	StringTable _stringTable = "UI/FXStartConditionStringTable.rsc";
 	String _name = "FXModHardName";
 	String _description = "FXModHardDesc";
 	bool _exposed = true;

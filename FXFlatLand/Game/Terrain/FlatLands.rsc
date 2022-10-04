@@ -1,6 +1,6 @@
 TerrainGenerator resource
 {
-	StringTable _stringTable = "Dialog/StringTable.rsc:terrainType";
+	StringTable _stringTable = "UI/FXFlatLandStringTable.rsc";
 	String _text = "FlatLands";
 	bool _exposed = true;
 
