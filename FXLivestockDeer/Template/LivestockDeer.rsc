@@ -25,19 +25,17 @@ ValueDescription value
 	String _stringName = "Deers";
 		
 	// how much the item is worth, +- some tolerance
-	int _baseValue = 400;
+	int _baseValue = 600;
 
 	// how much is sold in a single sale
-	int _stackCount = 12;
-	int _minStackCount = 8;
+	int _stackCount = 8;
+	int _minStackCount = 6;
 }
 
 CharacterDescription character
 {
-	float _headingOffset = 0.0;
-	float _turnFilter = 0.97;
-	float _defaultAnimationBlendTime = 0.33;
-	float _minHeight = -1.2;
+	float _headingOffset = 180.0;
+	float _turnFilter = 0.95;
 }
 
 SelectDescription select
@@ -56,15 +54,15 @@ AnimalDescription animal
 		"Template/RawMaterialVenison.rsc"
 		"Template/RawMaterialLeather.rsc"
 	]
-
-	int _roamSize = 8;
-	int _requiredArea = 4;
 	
-	float _maxAge = 3.0;
-	float _maxAgeTolerance = 0.5;
-	float _ageForOffspring = 1.0;
-	float _offspringTerm = 10.0;
-	float _offsprintTermTolerance = 0.0;
+	int _roamSize = 5;
+	int _requiredArea = 16;
+	
+	float _maxAge = 6.0;
+	float _maxAgeTolerance = 1.0;
+	float _ageForOffspring = 0.8;
+	float _offspringTerm = 0.6;
+	float _offsprintTermTolerance = 0.20;
 }
 
 ModelDescription model

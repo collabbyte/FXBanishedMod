@@ -1,8 +1,8 @@
-PackageFile FXLivestockDeer
+PackageFile FXAllTradingPost
 {
-	String _name = "FX Livestock Deer";
+	String _name = "FX All Trading Post";
 	String _author = "Feral Xan";
-	String _description = "Add derr to livestock";
+	String _description = "Show All Trading Post Category";
 	String _icon = "icon.png";
 	int _userVersion = 1.0.0;
 

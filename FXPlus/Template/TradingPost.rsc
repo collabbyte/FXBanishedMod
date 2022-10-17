@@ -27,12 +27,7 @@ TradeDescription trade
 
 	TradeScale _tradeScale
 	[
-		{	int _population = 30;	float _monthsTrade = 18;	float _monthsTradeTolerance = 6;	int _itemCountScale = 8;	int _itemStackScale = 8; }
-		// {	int _population = 60;	float _monthsTrade = 12;	float _monthsTradeTolerance = 4;	int _itemCountScale = 6;	int _itemStackScale = 6; }
-		// {	int _population = 90;	float _monthsTrade = 7; 	float _monthsTradeTolerance = 4;	int _itemCountScale = 4;	int _itemStackScale = 4; }
-		// {	int _population = 120;	float _monthsTrade = 6;		float _monthsTradeTolerance = 2;	int _itemCountScale = 3;	int _itemStackScale = 3; }
-		// {	int _population = 150;	float _monthsTrade = 6;		float _monthsTradeTolerance = 2;	int _itemCountScale = 2;	int _itemStackScale = 2; }
-		// {	int _population = 180;	float _monthsTrade = 5;		float _monthsTradeTolerance = 1;	int _itemCountScale = 1;	int _itemStackScale = 1; }
+		{	int _population = 30;	float _monthsTrade = 5;		float _monthsTradeTolerance = 0;	int _itemCountScale = 1;	int _itemStackScale = 1; }
 	]
 
 	Merchant _merchants

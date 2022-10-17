@@ -4,7 +4,6 @@ ExternalList resource
 	[
         "Game/Toolbar.rsc:capture"
         "Game/Toolbar.rsc:debug"
-        "Game/Toolbar.rsc:noise"
 
         "Template/Cemetery.rsc:destroy"
 
@@ -54,14 +53,24 @@ ExternalList resource
         "Template/StorageCart.rsc:storage"
 
         "Template/StorageYard.rsc:storage"
+        "Template/StorageYard.rsc:createdrag"
 
         "Template/Tombstone.rsc:tombstone"
         
         "Template/ToolMaker.rsc:consumeproduce"
+        // "Template/ToolMaker.rsc:resourceLimitConfig2"
+        // "Template/ToolMaker.rsc:resourceLimit2"
+        // "Template/ToolMaker.rsc:labelLimit2"
+        // "Template/ToolMaker.rsc:ui"
+        // "Template/ToolMaker.rsc:inventoryTab"
 
         "Template/TownHall.rsc:immigration"
 
         "Template/TradingPost.rsc:trade"
+
+        "Template/Hostel.rsc:residence"
+        "Template/StoneHouse.rsc:residence"
+        "Template/WoodHouse.rsc:residence"
 
 		// Raw
 		"Template/RawMaterialAle.rsc:rawmaterial"
@@ -104,6 +113,5 @@ ExternalList resource
         "Template/RawMaterialWood.rsc:rawmaterial"
         "Template/RawMaterialWool.rsc:rawmaterial"
         "Template/RawMaterialWoolCoat.rsc:rawmaterial"
-        
 	]
 }
