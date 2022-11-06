@@ -69,8 +69,6 @@ ExternalList resource
         "Template/TradingPost.rsc:trade"
 
         "Template/Hostel.rsc:residence"
-        "Template/StoneHouse.rsc:residence"
-        "Template/WoodHouse.rsc:residence"
 
 		// Raw
 		"Template/RawMaterialAle.rsc:rawmaterial"

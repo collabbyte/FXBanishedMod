@@ -407,8 +407,8 @@ BuildDescription build
 
 ResidenceDescription residence
 {
-	int _maxApartments = 2;
-	int _maxOccupants = 4;
+	int _maxApartments = 1;
+	int _maxOccupants = 5;
 	float _temperatureForFuel = 50.0;
 	float _fuelPerResource = 60.0;
 }

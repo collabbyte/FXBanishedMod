@@ -74,6 +74,7 @@ ExternalList resource
 		"tailor"
 		"tavern"
 		"ironmine"
+		"ironmineflat"
 		"quarry"
 
 		"clearbuilt"
@@ -238,8 +239,8 @@ Toolbar path : "base"			{  Toolbar _parent = "reports";		int _sortPriority = 700
 Toolbar camera : "base"			{  Toolbar _parent = "reports";		int _sortPriority = 800; 	Action _action = ShowGroup;	String _image = "ToolCamera";	String _toolTip = "CameraTip";		Keys _hotKey = Tool7; bool _autoHotKey = true; }
 Toolbar towninfo : "base"		{  Toolbar _parent = "reports";		int _sortPriority = 900; 	Action _action = Properties;	ComponentDescription _tool = "Template/TownHall.rsc";			Keys _hotKey = Tool8; bool _autoHotKey = true;  String _toolTip = "ToolTownHallTip"; String _image = "ToolTownHall";  }
 Toolbar help : "base"			{  Toolbar _parent = "reports";		int _sortPriority = 1000; 	Action _action = Utility;	ComponentDescription _tool = "Template/UtilityHelp.rsc";			Keys _hotKey = Tool9; }
-Toolbar capture : "base"		{  bool _visible = true;	Toolbar _parent = "reports";		int _sortPriority = 1100; 	Action _action = Utility;	ComponentDescription _tool = "Template/UtilityCapture.rsc";			Keys _hotKey = Camera0; bool _autoHotKey = true;}
-Toolbar debug : "base"			{  bool _visible = true;	Toolbar _parent = "reports";		int _sortPriority = 1200; 	Action _action = Utility;	ComponentDescription _tool = "Template/UtilityDebug.rsc";			Keys _hotKey = Camera1; bool _autoHotKey = true;}
+Toolbar capture : "base"		{  bool _visible = false;	Toolbar _parent = "reports";		int _sortPriority = 1100; 	Action _action = Utility;	ComponentDescription _tool = "Template/UtilityCapture.rsc";			Keys _hotKey = Camera0; bool _autoHotKey = true;}
+Toolbar debug : "base"			{  bool _visible = false;	Toolbar _parent = "reports";		int _sortPriority = 1200; 	Action _action = Utility;	ComponentDescription _tool = "Template/UtilityDebug.rsc";			Keys _hotKey = Camera1; bool _autoHotKey = true;}
 Toolbar noise : "base"			{  bool _visible = false;	Toolbar _parent = "reports";		int _sortPriority = 1300; 	Action _action = Utility;	ComponentDescription _tool = "Template/UtilityNoise.rsc";			Keys _hotKey = Camera2; bool _autoHotKey = true;}
 
 Toolbar camera0 : "base"		{	Toolbar _parent = "camera";		int _sortPriority = 100;	Action _action = Camera;	String _toolTip = "Camera0Tip"; String _image = "ToolCamera0";		Keys _hotKey = Camera0; int _index = 0; }
@@ -283,7 +284,8 @@ Toolbar toolmaker : "base"		{	Toolbar _parent = "resources";	int _sortPriority =
 Toolbar tailor : "base"			{	Toolbar _parent = "resources";	int _sortPriority = 500;	Action _action = Tool;		ComponentDescription _tool = "Template/Tailor.rsc";					Keys _hotKey = Tool4; bool _autoHotKey = true;  }
 Toolbar tavern : "base"			{	Toolbar _parent = "resources";	int _sortPriority = 600;	Action _action = Tool;		ComponentDescription _tool = "Template/Tavern.rsc";					Keys _hotKey = Tool5; bool _autoHotKey = true;  }
 Toolbar ironmine : "base"		{	Toolbar _parent = "resources";	int _sortPriority = 700;	Action _action = Tool;		ComponentDescription _tool = "Template/IronMine.rsc";				Keys _hotKey = Tool6; bool _autoHotKey = true;  }
-Toolbar quarry : "base"			{	Toolbar _parent = "resources";	int _sortPriority = 800;	Action _action = Tool;		ComponentDescription _tool = "Template/Quarry.rsc";					Keys _hotKey = Tool7; bool _autoHotKey = true;  }
+Toolbar ironmineflat : "base"	{	Toolbar _parent = "resources";	int _sortPriority = 800;	Action _action = Tool;		ComponentDescription _tool = "Template/IronMineFlat.rsc";			Keys _hotKey = Tool7; bool _autoHotKey = true;  }
+Toolbar quarry : "base"			{	Toolbar _parent = "resources";	int _sortPriority = 900;	Action _action = Tool;		ComponentDescription _tool = "Template/Quarry.rsc";					Keys _hotKey = Tool8; bool _autoHotKey = true;  }
 
 Toolbar clearbuilt : "base"		{	Toolbar _parent = "removal";	int _sortPriority = 100;	Action _action = Tool;		ComponentDescription _tool = "Template/ClearBuildings.rsc";			Keys _hotKey = Tool0; bool _autoHotKey = true;  }
 Toolbar clearall : "base"		{	Toolbar _parent = "removal";	int _sortPriority = 200;	Action _action = Tool;		ComponentDescription _tool = "Template/ClearResources.rsc";			Keys _hotKey = Tool1; bool _autoHotKey = true;  }

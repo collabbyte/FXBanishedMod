@@ -1,5 +1,5 @@
 TombstoneDescription tombstone
 {
-	float _lifetimeInMonths = 4.0;
-    float _lifetimeTolerance = 2.0;
+	float _lifetimeInMonths = 1.0;
+    float _lifetimeTolerance = 0.0;
 }

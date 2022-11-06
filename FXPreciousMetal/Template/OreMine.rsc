@@ -76,8 +76,7 @@ StateMachineDescription statemachine { }
 ZoneDescription zone { }
 DestroyDescription destroy 
 { 
-	int _damagedSkin = 1;
-	int _damagedDecal = 1;
+	ComponentDescription _replaceEntity = "destroyed";
 }
 
 MineDescription mine
@@ -111,13 +110,13 @@ ParticleDescription particle
 
 ToolbarDescription toolbar
 {
-	SpriteSheet _spriteSheet = "UI/FXMinesQuarrySpriteSheet.rsc";
-	String _spriteName = "IronMineFlat";
+	SpriteSheet _spriteSheet = "Dialog/SpriteSheet.rsc";
+	String _spriteName = "BuildIronMine";
 
-	StringTable _stringTable = "UI/FXMinesQuarryStringTable.rsc";
-	String _stringName = "IronMineFlat";
-	String _stringNameLwr = "IronMineFlatLwr";
-	String _toolTip = "IronMineFlatTip";
+	StringTable _stringTable = "Dialog/StringTable.rsc:objects";
+	String _stringName = "IronMine";
+	String _stringNameLwr = "IronMineLwr";
+	String _toolTip = "IronMineTip";
 
 	String _statusStrings
 	[
@@ -140,14 +139,16 @@ CreatePlacedDescription createplaced
 	[
 		Normal | Obstacle,
 		Normal | Obstacle | Fast | Faster,
+		Normal | Obstacle | Unusable | Walkable,  
+		Unusable | Walkable,
 	]
 	String _placeBitmap =
-		"000000000000
-		 000000000000
-		 000010000000
-		 000010000000
-		 000010000000
-		 000010000000
+		"333333333333
+		 333333333333
+		 333313333333
+		 333313322222
+		 222212222222
+		 222212222222
 		 000010000000
 		 110010000000
 		 111010000111
@@ -284,7 +285,7 @@ StorageDescription storage
 
 WorkDescription work
 {
-	int _defaultWorkers = 10;
+	int _defaultWorkers = 15;
 
 	bool _allowCountChange = true;
 	int _minWorkerCount = 1;
@@ -320,7 +321,7 @@ ConsumeProduceDescription consumeproduce
 	int _workRequired = 60;
 
 	int _initialProduct = 0;	// -1 for all products
-	int _maximumProduction = 2147483647; // maximum int
+	int _maximumProduction = 2000;
 }
 
 BuildDescription build
@@ -331,11 +332,11 @@ BuildDescription build
 	[
 		{
 			ComponentDescription _rawMaterial = "Template/RawMaterialWood.rsc";
-			int _count = 60;
+			int _count = 48;
 		}
 		{
 			ComponentDescription _rawMaterial = "Template/RawMaterialStone.rsc";
-			int _count = 80;
+			int _count = 68;
 		}	
 	]
 }
@@ -385,10 +386,10 @@ UIDescription ui
 			ElementDescription _element = "Dialog/Building.rsc:icons";
 			String _insertAt = "userTitle2";
 		}
-		//{
-		//	ElementDescription _element = "Dialog/ConsumeProduce.rsc:progressRemaining"; 
-		//	String _insertAt = "userButton1";
-		//}
+		{
+			ElementDescription _element = "Dialog/ConsumeProduce.rsc:progressRemaining"; 
+			String _insertAt = "userButton1";
+		}
 		{
 			ObjectType _type = ConsumeProduceUI;
 			ElementDescription _element = "Dialog/ConsumeProduce.rsc"; 
@@ -443,7 +444,7 @@ RibbonDescription resourceLimit
 {
 	Alignment _alignment = TopLeft;
 	bool vertical = false;
-	int _topPad = 8;
+	int _topPad = 24;
 	int _cellPad = 8;
 	int _minWidth = 222;
 
@@ -462,7 +463,7 @@ RibbonDescription resourceLimit2
 {
 	Alignment _alignment = TopLeft;
 	bool vertical = false;
-	int _topPad = 28;
+	int _topPad = 44;
 	int _cellPad = 8;
 	int _minWidth = 222;
 
