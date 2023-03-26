@@ -32,4 +32,10 @@ rmdir /s /q FXStartCondition\Build
 bin\x64\Tools-x64.exe /build FXStartCondition.rsc /pathres ../FXStartCondition /pathdat ../FXStartCondition/bin
 bin\x64\Tools-x64.exe /mod Package.rsc:FXStartCondition /pathres ../FXStartCondition /pathdat ../FXStartCondition/bin
 
+rmdir /s /q FXAllTradingPost\bin
+rmdir /s /q FXAllTradingPost\Build
+
+bin\x64\Tools-x64.exe /build FXAllTradingPostResources.rsc /pathres ../FXAllTradingPost /pathdat ../FXAllTradingPost/bin
+bin\x64\Tools-x64.exe /mod Package.rsc:FXAllTradingPost /pathres ../FXAllTradingPost /pathdat ../FXAllTradingPost/bin
+
 bin\x64\Application-x64-profile.exe /onlypkg
