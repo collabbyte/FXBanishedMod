@@ -36,7 +36,6 @@ Sumber: [Profil BanishedInfo oleh feralxan](https://banishedinfo.com/users/3116-
 1. Clone repositori:
    ```bash
    git clone https://github.com/collabbyte/FXBanishedMod.git
-```
 
 2. Jalankan `build.bat` (pastikan sudah punya ModKit dari Banished).
 3. Salin file `.pkm` hasil build ke folder:
