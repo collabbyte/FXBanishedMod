@@ -3,15 +3,13 @@ ImmigrationDescription immigration
 	ComponentDescription _nomad = "Template/Nomad.rsc";
 
 	int _requiredPopulation = 0;
-	// ComponentDescription _requiredStructures
-	// [
-	// 	"Template/Market.rsc"
-	// 	"Template/TradingPost.rsc"
-	// ]
+	ComponentDescription _requiredStructures
+	[
+	]
 
-	float _minGroupPercent = 0.05;
-	float _maxGroupPercent = 0.15;
-	float _timeDelayMonths = 24;
+	float _minGroupPercent = 0.2;
+	float _maxGroupPercent = 0.5;
+	float _timeDelayMonths = 6;
 	float _timeDelayMonthsTol = 0;
 	int _arriveMinMonth = 1;
 	int _arriveMaxMonth = 1;

@@ -100,8 +100,8 @@ CitizenDescription citizen
 	float _toolPenalty = 5.0;
 
 	int _requiredEducation = 10000;
-	float _educationTimeLength = 1.0;
-	float _educationWorkLength = 1.0;
+	float _educationTimeLength = 0.3;
+	float _educationWorkLength = 0.9;
 
 	float _doctorChanceOfDeathScalar = 2.0;
 	float _medicateWorkLength = 10.0;

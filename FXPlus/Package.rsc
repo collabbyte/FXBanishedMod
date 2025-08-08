@@ -4,7 +4,7 @@ PackageFile FXPlus
 	String _author = "Feral Xan";
 	String _description = "Banished with Module Plus.";
 	String _icon = "icon.png";
-	int _userVersion = 1.0.0;
+	int _userVersion = 220929100;
 
 	// all files in resource directory
 	String _includeList
