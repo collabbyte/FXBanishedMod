@@ -318,7 +318,7 @@ TradeDescription trade
 
 	TradeScale _tradeScale
 	[
-		{	int _population = 30;	float _monthsTrade = 5;		float _monthsTradeTolerance = 0;	int _itemCountScale = 1;	int _itemStackScale = 1; }
+		{	int _population = 0;	float _monthsTrade = 4;		float _monthsTradeTolerance = 0;	int _itemCountScale = 1;	int _itemStackScale = 1; }
 	]
 
 	Merchant _merchants
@@ -326,7 +326,7 @@ TradeDescription trade
 		{
 			StringTable _stringTable = "UI/FXAllTradingPostStringTable.rsc:merchant";
 			String _merchantName = "AllMerchant";
-			int _itemCount = 20;
+			int _itemCount = 10;
 
 			RawMaterialFlags _sellFlags =  Wood | Stone | Iron | Fuel | Tool | Health | Edible | Textile | Clothing | Alcohol;
 			RawMaterialFlags _wantFlags = Wood | Stone | Iron | Fuel | Tool | Health | Edible | Textile | Clothing | Alcohol;

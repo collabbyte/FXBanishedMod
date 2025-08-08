@@ -4,7 +4,7 @@ PackageFile FXAllTradingPost
 	String _author = "Feral Xan";
 	String _description = "Show All Trading Post Category";
 	String _icon = "icon.png";
-	int _userVersion = 1.0.0;
+	int _userVersion = 250808102;
 
 	// all files in resource directory
 	String _includeList
