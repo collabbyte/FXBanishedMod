@@ -38,4 +38,11 @@ rmdir /s /q FXAllTradingPost\Build
 bin\x64\Tools-x64.exe /build FXAllTradingPostResources.rsc /pathres ../FXAllTradingPost /pathdat ../FXAllTradingPost/bin
 bin\x64\Tools-x64.exe /mod Package.rsc:FXAllTradingPost /pathres ../FXAllTradingPost /pathdat ../FXAllTradingPost/bin
 
+@REM rmdir /s /q FXPreciousMetal\bin
+@REM rmdir /s /q FXPreciousMetal\Build
+
+@REM bin\x64\Tools-x64.exe /build FXPreciousMetalResources.rsc /pathres ../FXPreciousMetal /pathdat ../FXPreciousMetal/bin
+@REM bin\x64\Tools-x64.exe /mod Package.rsc:FXPreciousMetal /pathres ../FXPreciousMetal /pathdat ../FXPreciousMetal/bin
+
 bin\x64\Application-x64-profile.exe /onlypkg
+exit
