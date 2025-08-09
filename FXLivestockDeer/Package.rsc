@@ -2,9 +2,9 @@ PackageFile FXLivestockDeer
 {
 	String _name = "FX Livestock Deer";
 	String _author = "Feral Xan";
-	String _description = "Add derr to livestock";
+	String _description = "Add deer to livestock";
 	String _icon = "icon.png";
-	int _userVersion = 1.0.0;
+	int _userVersion = 220929100;
 
 	// all files in resource directory
 	String _includeList

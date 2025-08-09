@@ -4,7 +4,7 @@ PackageFile FXStartCondition
 	String _author = "Feral Xan";
 	String _description = "StartCondition with some added fiture.";
 	String _icon = "icon.png";
-	int _userVersion = 1.0.3;
+	int _userVersion = 211231103;
 
 	// all files in resource directory
 	String _includeList

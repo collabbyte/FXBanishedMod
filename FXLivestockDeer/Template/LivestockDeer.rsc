@@ -34,8 +34,10 @@ ValueDescription value
 
 CharacterDescription character
 {
-	float _headingOffset = 180.0;
-	float _turnFilter = 0.95;
+	float _headingOffset = 0.0;
+	float _turnFilter = 0.97;
+	float _defaultAnimationBlendTime = 0.33;
+	float _minHeight = -1.2;
 }
 
 SelectDescription select
@@ -50,19 +52,19 @@ SelectDescription select
 AnimalDescription animal
 {
 	ComponentDescription _rawMaterial 
-	[	
+	[
 		"Template/RawMaterialVenison.rsc"
 		"Template/RawMaterialLeather.rsc"
 	]
-	
-	int _roamSize = 5;
+
+	int _roamSize = 8;
 	int _requiredArea = 16;
 	
-	float _maxAge = 6.0;
-	float _maxAgeTolerance = 1.0;
-	float _ageForOffspring = 0.8;
-	float _offspringTerm = 0.6;
-	float _offsprintTermTolerance = 0.20;
+	float _maxAge = 3.0;
+	float _maxAgeTolerance = 0.5;
+	float _ageForOffspring = 1.0;
+	float _offspringTerm = 10.0;
+	float _offsprintTermTolerance = 0.0;
 }
 
 ModelDescription model
@@ -81,7 +83,7 @@ ModelDescription model
 
 	int _displayIndex = 0;
 	int _subIndex = 0;	
-	bool _randomIndex = true;
+	bool _randomIndex = false;
 }
 
 LivestockDescription livestock 
