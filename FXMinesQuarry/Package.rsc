@@ -4,7 +4,7 @@ PackageFile FXMinesQuarry
 	String _author = "Feral Xan";
 	String _description = "This Mod Makes Mine and Mine Unlimited. and when it is deleted there is no trace.";
 	String _icon = "icon.png";
-	int _userVersion = 220102102;
+	int _userVersion = 250808104;
 
 	// all files in resource directory
 	String _includeList

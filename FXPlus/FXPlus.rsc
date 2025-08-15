@@ -34,7 +34,9 @@ ExternalList resource
         
         "Template/Herbalist.rsc:work"
         "Template/Herbalist.rsc:radius"
-        
+
+        "Template/Hostel.rsc:residence"
+
         "Template/HunterLodge.rsc:work"
         "Template/HunterLodge.rsc:radius"
         
@@ -47,6 +49,8 @@ ExternalList resource
         
         "Template/SchoolHouse.rsc:attendance"
         "Template/SchoolHouse.rsc:work"
+
+        "Template/StoneHouse.rsc:storage"
 
         "Template/StorageBarn.rsc:storage"
 
@@ -68,7 +72,7 @@ ExternalList resource
 
         "Template/TradingPost.rsc:trade"
 
-        "Template/Hostel.rsc:residence"
+        "Template/WoodHouse.rsc:storage"
 
 		// Raw
 		"Template/RawMaterialAle.rsc:rawmaterial"

@@ -4,7 +4,7 @@ PackageFile FXFlatLand
 	String _author = "Feral Xan";
 	String _description = "Generated FlatLands with 1 River.";
 	String _icon = "icon.png";
-	int _userVersion = 211231103;
+	int _userVersion = 250808105;
 
 	// all files in resource directory
 	String _includeList

@@ -403,7 +403,7 @@ StorageDescription storage
 	RawMaterialFlags _storageFlags = Edible | Fuel;
 	bool _areaBasedLimit = false;
 	bool _available = false;
-	int _volumeLimit = 1000;
+	int _volumeLimit = 600;
 }
 
 WorkDescription work
