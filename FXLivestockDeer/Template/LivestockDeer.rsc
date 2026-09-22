@@ -60,11 +60,11 @@ AnimalDescription animal
 	int _roamSize = 8;
 	int _requiredArea = 16;
 	
-	float _maxAge = 3.0;
-	float _maxAgeTolerance = 0.5;
-	float _ageForOffspring = 1.0;
-	float _offspringTerm = 10.0;
-	float _offsprintTermTolerance = 0.0;
+	float _maxAge = 6.0;
+	float _maxAgeTolerance = 1.0;
+	float _ageForOffspring = 0.8;
+	float _offspringTerm = 0.6;
+	float _offsprintTermTolerance = 0.20;
 }
 
 ModelDescription model
