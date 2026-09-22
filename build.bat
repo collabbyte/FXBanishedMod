@@ -38,5 +38,11 @@ rmdir /s /q FXAllTradingPost\Build
 bin\x64\Tools-x64.exe /build FXAllTradingPostResources.rsc /pathres ../FXAllTradingPost /pathdat ../FXAllTradingPost/bin
 bin\x64\Tools-x64.exe /mod Package.rsc:FXAllTradingPost /pathres ../FXAllTradingPost /pathdat ../FXAllTradingPost/bin
 
-@REM bin\x64\Application-x64-profile.exe /onlypkg
+rmdir /s /q FXBlacksmith\bin
+rmdir /s /q FXBlacksmith\Build
+
+bin\x64\Tools-x64.exe /build FXBlacksmithResources.rsc /pathres ../FXBlacksmith /pathdat ../FXBlacksmith/bin
+bin\x64\Tools-x64.exe /mod Package.rsc:FXBlacksmith /pathres ../FXBlacksmith /pathdat ../FXBlacksmith/bin
+
+@REM  bin\x64\Application-x64-profile.exe /onlypkg
 exit
