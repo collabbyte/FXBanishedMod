@@ -111,10 +111,10 @@ CitizenDescription citizen
 
 	int _maxWaterForFireSearch = 64;
 
-	int _minDistanceForWork = 8;
-	int _maxDistanceForWork = 128;	// must encompass longest walk path!
+	int _minDistanceForWork = 60;
+	int _maxDistanceForWork = 2000;	// must encompass longest walk path!
 	int _timeUntilMaxDistanceForWorkInMonths = 6;
-	int _maxWalkInWinter = 64;
+	int _maxWalkInWinter = 200;
 	float _minTemperatureForWinterWalk = 45.0;
 
 	GraphicsMesh _tools

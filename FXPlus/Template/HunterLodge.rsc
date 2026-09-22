@@ -1,22 +1,14 @@
 WorkDescription work
 {
-	int _defaultWorkers = 3;
+	int _defaultWorkers = 4;
 
 	bool _allowCountChange = true;
 	int _minWorkerCount = 1;
-	int _maxWorkerCount = 4;
-}
-
-HuntDescription hunt
-{
-	// one deer per month
-	float _killTimeInMonths = 4.0;
-
-	ResourceLimit _resourceLimit = Food;
+	int _maxWorkerCount = 6;
 }
 
 RadiusDescription radius
 {
-	int _radius = 49;
+	int _radius = 51;
 	MaterialInstance _decalMaterial = "Terrain/TiledDecals/SelectAreaMaterial.rsc";
 }

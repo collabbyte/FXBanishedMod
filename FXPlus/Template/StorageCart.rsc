@@ -4,5 +4,5 @@ StorageDescription storage
 	
 	bool _areaBasedLimit = false;
 	bool _available = true;
-	int _volumeLimit = 10000;
+	int _volumeLimit = 12500;
 }

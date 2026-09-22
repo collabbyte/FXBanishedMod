@@ -16,6 +16,8 @@ ExternalList resource
         "Template/Citizen.rsc:citizen"
 
         "Template/CropField.rsc:createdrag"
+        "Template/CropField.rsc:work"
+        "Template/CropField.rsc:cropfield"
 
         "Template/CutterYard.rsc:work"
         
@@ -36,6 +38,7 @@ ExternalList resource
         "Template/Herbalist.rsc:radius"
 
         "Template/Hostel.rsc:residence"
+        "Template/Hostel.rsc:storage"
 
         "Template/HunterLodge.rsc:work"
         "Template/HunterLodge.rsc:radius"
@@ -44,8 +47,11 @@ ExternalList resource
         "Template/Market.rsc:storage"
 
         "Template/Orchard.rsc:createdrag"
+        "Template/Orchard.rsc:work"
+        "Template/Orchard.rsc:orchard"
 
         "Template/PopulationDeer.rsc:population"
+        "Template/PopulationDeer.rsc:herd"
         
         "Template/SchoolHouse.rsc:attendance"
         "Template/SchoolHouse.rsc:work"
@@ -60,13 +66,6 @@ ExternalList resource
         "Template/StorageYard.rsc:createdrag"
 
         "Template/Tombstone.rsc:tombstone"
-        
-        "Template/ToolMaker.rsc:consumeproduce"
-        // "Template/ToolMaker.rsc:resourceLimitConfig2"
-        // "Template/ToolMaker.rsc:resourceLimit2"
-        // "Template/ToolMaker.rsc:labelLimit2"
-        // "Template/ToolMaker.rsc:ui"
-        // "Template/ToolMaker.rsc:inventoryTab"
 
         "Template/TownHall.rsc:immigration"
 

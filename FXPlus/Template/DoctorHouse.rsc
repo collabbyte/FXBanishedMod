@@ -1,6 +1,6 @@
 RadiusDescription radius
 {
-	int _radius = 45;
+	int _radius = 120;
 	// MaterialInstance _decalMaterial = "Terrain/TiledDecals/SelectAreaMaterial.rsc";
 }
 

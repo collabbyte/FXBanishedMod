@@ -1,11 +1,3 @@
-StorageDescription storage
-{
-	RawMaterialFlags _storageFlags = Fuel | Wood | Stone | Iron;
-	bool _areaBasedLimit = true;
-	bool _available = true;
-	int _volumeLimit = 1000;
-}
-
 CreateDragDescription createdrag
 {
 	bool _ignoreZones = false;
@@ -16,4 +8,12 @@ CreateDragDescription createdrag
 	int _minHeight = 2;		
 
 	ComponentDescription _allowAndRemove = "Template/Clear.rsc";		
+}
+
+StorageDescription storage
+{
+	RawMaterialFlags _storageFlags = Fuel | Wood | Stone | Iron;
+	bool _areaBasedLimit = true;
+	bool _available = true;
+	int _volumeLimit = 1250;
 }

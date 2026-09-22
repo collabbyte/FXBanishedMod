@@ -14,7 +14,7 @@ ImmigrationDescription immigration
 	int _arriveMinMonth = 1;
 	int _arriveMaxMonth = 2;
 	int _leaveMonth = 7;
-	int _spawnRadius = 10;
+	int _spawnRadius = 5;
 
 	float _sicknessAmount = 0;
 	int _sicknessTimeInMonths = 0;

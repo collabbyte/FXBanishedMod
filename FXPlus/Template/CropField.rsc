@@ -11,3 +11,21 @@ CreateDragDescription createdrag
 
 	ComponentDescription _allowAndRemove = "Template/Clear.rsc";		
 }
+
+WorkDescription work
+{
+	int _defaultWorkers = 4;
+
+	bool _allowCountChange = true;
+	int _minWorkerCount = 1;
+	int _maxWorkerCount = 8;
+
+	int _maxArea = 225;
+	bool _scaleWorkersWithSize = true;
+}
+
+CropFieldDescription cropfield
+{
+	ResourceLimit _resourceLimit = Food;
+	float _growthPercentOnTend = 0.01;
+}
