@@ -46,7 +46,7 @@ MapGenerator resource : "StartConditions.rsc:defaults"
 	int _initialFuelCount = 800;
 
 	int _initialToolCount = 100;
-	int _initialFoodCount = 50000;
+	int _initialFoodCount = 20000;
 	int _initialClothingCount = 200;
 
 	int _plantCount = 8;
